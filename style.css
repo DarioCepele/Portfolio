@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+.FontT{
+    font-family: 'Montserrat', sans-serif;
+}
+.FontF{
+    font-family: 'Space Grotesk', sans-serif;
+    text-shadow: 3px 4px #334155;
+}
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.title{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 58px;
+}
+.copy{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
