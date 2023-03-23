@@ -14,10 +14,10 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-stone-900 ">
+    <nav class="bg-stone-900 border-gray-200 px-2 sm:px-4 py-2.5">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="https://flowbite.com/" class="flex items-center">
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white fontT">Dario Cepele</span>
+            <span class="self-center text-xl font-semibold whitespace-nowrap text-white fontT">Dario Cepele</span>
         </a>
         <div class="flex md:order-2">
             <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-indigo-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact</button>
@@ -46,7 +46,7 @@
     <!--TOP-->
     <div
     class="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover h-96 lg:h-screen"
-    style="background-image: url('img/img.jpg')">
+    style="background-image: url('../img/img.jpg')">
     <div
       class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
       style="background-color: rgba(27, 26, 26, 0.685)">
@@ -72,16 +72,24 @@
       </div>
     </div>
   </div>
-  
+
 <!--MID-->
+
 <div class="mx-60 mt-20 grid grid-cols-2 gap-10 justify-items-stretch">
   <div class="bg-indigo-600 h-96 rounded-3xl text-white px-10 py-10 text-3xl copy">I am an enthusiastic full-stack developer who loves to challenge myself with complex problems and enjoys creating innovative solutions with an eye always on design.</div>
-  <div class="justify-self-center"><img src="img/tano.jpg" class="w-fit h-96 rounded-2xl"></div>
-  <div class="border-2 border-black">03</div>
-  <div class="bg-indigo-600 h-96 rounded-3xl text-white py-32 text-3xl copy grid">
-    <p class="m-auto">Be the first to work with me</p>
-    <input type="email" id="helper-text" class="m-auto mt-4 text-indigo-500 text-base rounded-xl w-80 h-[50px] p-2.5 border-4 border-black placeholder:text-indigo-500" placeholder="name@domain.com">
-    <button class="m-auto mt-5 border-4 text-xl border-black w-64 h-[50px] rounded-xl">Apply</button>
+  <div class="justify-self-center"><img src="../img/tano.jpg" class="w-fit h-96 rounded-2xl"></div>
+
+  <div class="bg-stone-300 rounded-3xl bg-no-repeat bg-cover relative" style="background-image: url('../img/portfolio.png')">
+    <button class="btnPortfolio port text-[43px] border-white text-white w-[230px] h-[100px]"><span class="transition ease-in-out delay-80 hover:text-blue-600 duration-300">Portfolio</span></button>
+  </div>
+
+
+  <div class="bg-indigo-600 h-96 rounded-3xl text-white py-32 text-3xl copy relative">
+    <div class="center">
+      <p class="">Be the first to work with me</p>
+      <input type="email" id="helper-text" class=" mt-4 text-indigo-500 text-base rounded-xl w-80 h-[50px] border-4 border-black placeholder:text-indigo-500" placeholder="&nbsp name@domain.com">
+    </div>
+    <button class="border-4 text-2xl border-black w-64 h-[50px] rounded-xl btnContact">Apply</button>
   </div>
 </div>
 
@@ -90,7 +98,7 @@
   <div class="h-[2px] bg-indigo-500"></div>
   <ul class="flex justify-between mx-10 mt-5">
     <li class="copy"><i class="fa-regular fa-copyright"></i><span> Dario Cepele 2023</span></li>
-    <li class="flex flex-row content-center"><i class="fa-brands fa-instagram ml-2 text-[22px]"> </i> <i class="fa-brands fa-linkedin-in ml-2 text-[22px]"></i><i class="fa-brands fa-github ml-2 text-[22px]"></i><div class="inline-flex w-[26px] h-[26px]"><img src="img/s2i.png" class="ml-1.5 mb-[1px]"></div></li>
+    <li class="flex flex-row content-center"><i class="fa-brands fa-instagram ml-2 text-[22px]"> </i> <i class="fa-brands fa-linkedin-in ml-2 text-[22px]"></i><i class="fa-brands fa-github ml-2 text-[22px]"></i><div class="inline-flex w-[26px] h-[26px]"><img src="../img/s2i.png" class="ml-1.5 mb-[1px]"></div></li>
   </ul>
 </div>
 </div>
