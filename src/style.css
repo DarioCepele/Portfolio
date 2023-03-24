@@ -44,13 +44,15 @@
     left: 47%;
     transform: translateX(-47%);
 }
-.btnPortfolio{
-    position: absolute;
-    bottom: 26%;
-    left: 69%;
-    transform: translateX(-69%);
+.fontWord{
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
 }
-.port{
+.btnPortfolioMobile{
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    transform: translateX(-70%);
+    letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
 }
