@@ -30,8 +30,8 @@
 }
 .copy{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 18px;
 }
+
 .center{
   position: absolute;
   left: 50%;
@@ -55,4 +55,7 @@
     transform: translateX(-70%);
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
+}
+.fontPortfolio{
+    font-family: 'Space Grotesk', sans-serif;
 }

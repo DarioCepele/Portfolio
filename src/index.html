@@ -16,7 +16,7 @@
     <!--NAVBAR-->
     <nav class="bg-stone-900 border-gray-200 px-2 sm:px-4 py-2.5">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="https://flowbite.com/" class="flex items-center">
+        <a href="#" class="flex items-center">
             <span class="self-center text-xl font-semibold whitespace-nowrap text-white fontT">Dario Cepele</span>
         </a>
         <div class="flex md:order-2">
@@ -75,57 +75,42 @@
 
 <!--MID-->
 
-<div class="lg:mx-60 lg:mt-20 grid lg:grid-cols-2 lg:gap-12 justify-items-stretch">
+<div class="lg:mx-60 lg:mt-20 grid lg:grid-cols-2 lg:gap-10 justify-items-stretch">
 
   <div class="bg-indigo-600 lg:h-96 h-screen lg:rounded-3xl text-white px-12 lg:px-10 py-20 lg:py-10 text-4xl lg:text-3xl copy">I am an enthusiastic full-stack developer who loves to challenge myself with complex problems and enjoys creating innovative solutions with an eye always on design.</div>
 
-  <div class="max-w-full max-h-full bg-contain m-auto"><img src="../img/tano.jpg" class="h-[380px] w-[420px] lg:rounded-3xl"></div>
+  <div class="max-w-full max-h-full bg-contain m-auto"><img src="../img/dario.jpg" class="h-[380px] w-[420px] lg:rounded-3xl"></div>
 
   <div class="lg:h-96 bg-no-repeat relative">
     <img src="../img/portfolio.png" class="lg:rounded-3xl">
     <a href="portfolio.html" 
-    class="absolute lg:bottom-1/4 lg:left-3/4 lg:translate-x-[-75%] fontWord 
-           bottom-[20%] left-[70%] translate-x-[-70%]
-           text-[43px] border-white text-white w-[230px] h-[100px] 
+    class="absolute fontPortfolio lg:bottom-[117px] lg:left-[59%] lg:translate-x-[-59px] fontWord 
+           bottom-[34%] left-[50%] translate-x-[-50%]
+           text-[40px] border-white text-white  
            transition ease-in-out delay-80 hover:text-blue-600 duration-300">Portfolio</a>
   </div>
 
-  <div class="bg-indigo-600 h-96 rounded-3xl text-white py-32 text-3xl copy relative">
+  <div class="bg-indigo-600 h-96 lg:rounded-3xl text-white py-32 text-3xl lg:h-[405px] h-screen copy relative">
     <div class="center">
-      <p class="">Be the first to work with me</p>
+      <p>Be the first to work with me</p>
       <form id="form" onsubmit="return false;">
         <input type="email" id="userInput" class="mt-4 pl-2 text-indigo-500 text-base rounded-xl w-80 h-[50px] border-4 border-black placeholder:text-indigo-500" placeholder="name@domain.com">
       </form>
     </div>
-    <button class="border-4 text-2xl border-black w-64 h-[50px] rounded-xl btnContact" onclick="mail()">Apply</button>
+    <button class="border-4 text-2xl border-black w-64 h-[50px] rounded-xl btnContact" onclick="mail">Apply</button>
   </div>
 </div>
 
 <!--FOOTER-->
-<div class="mt-40 mb-10 w-10/12 m-auto">
+<div class="mt-20 lg:mt-40 mb-10 w-10/12 m-auto">
   <div class="h-[2px] bg-indigo-500"></div>
-  <ul class="flex justify-between mx-10 mt-5">
-    <li class="copy"><i class="fa-regular fa-copyright"></i><span> Dario Cepele 2023</span></li>
+  <ul class="flex justify-between mx-3 lg:mx-10 mt-5">
+    <li class="text-base lg:text-lg copy"><i class="fa-regular fa-copyright"></i><span> Dario Cepele 2023</span></li>
     <li class="flex flex-row content-center"><i class="fa-brands fa-instagram ml-2 text-[22px]"> </i> <i class="fa-brands fa-linkedin-in ml-2 text-[22px]"></i><i class="fa-brands fa-github ml-2 text-[22px]"></i><div class="inline-flex w-[26px] h-[26px]"><img src="../img/s2i.png" class="ml-1.5 mb-[1px]"></div></li>
   </ul>
   </div>
 </div>
 
-<script>
-  function mail()
-  {
-    var input = document.getElementById("userInput").value;
-    alert(input);
-    const fs = require('fs')
-    let data = '\r Email: ' + input.value + ' \r\n';
-    //let data = "Learning how to write in a file."
-    fs.writeFile('ma.txt', data, (err) => {
-          // In case of a error throw err.
-          if (err) throw err;
-      });
-
-  }
-</script>
-
+<script type="module" src="script.js"></script>
 </body>
 </html>
